@@ -1,4 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.font-family: "Work Sans", sans-serif;
+/* .font-family: "Work Sans", sans-serif; */
 
 /*Shared Style--------------------------Shared Style  */
+*{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+    padding: 15px 30px 15px 30px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+.btn-container{
+    text-align: center;
+}
+
+
+/*1st part   hero style--------------------hero style */
+#hero{
+    height:734px;
+    background-image:linear-gradient(0deg, rgb(16,16,16) -19.5%, rgb(16 ,16 ,16, 0)100%) ,
+     url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    width: 1023px;
+    height: 393px;
+    /* border: 2px solid white; */
+}
+#hero .hero-container .sub-title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+#hero .hero-container .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 57px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#hero .hero-container .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
